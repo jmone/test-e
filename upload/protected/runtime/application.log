@@ -1,0 +1,98 @@
+2013/06/27 01:13:56 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'e_shangqing.comm' doesn't exist. The SQL statement executed was: SHOW COLUMNS FROM `comm`.
+in /home/wwwroot/e.shangqing.org/upload/index.php (13)
+2013/06/27 03:20:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/wwwroot/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/wwwroot/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/wwwroot/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/wwwroot/e.shangqing.org/upload/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/06/27 03:20:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/wwwroot/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/wwwroot/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/wwwroot/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/wwwroot/e.shangqing.org/upload/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/10 14:18:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/wwwroot/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/wwwroot/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/wwwroot/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/wwwroot/e.shangqing.org/upload/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/10 14:18:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/wwwroot/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/wwwroot/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/wwwroot/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/wwwroot/e.shangqing.org/upload/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/10 14:18:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/wwwroot/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/wwwroot/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/wwwroot/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/wwwroot/e.shangqing.org/upload/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/10 14:18:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/wwwroot/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/wwwroot/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/wwwroot/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/wwwroot/e.shangqing.org/upload/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/10 14:18:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/wwwroot/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/wwwroot/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/wwwroot/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/wwwroot/e.shangqing.org/upload/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/10 14:18:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/wwwroot/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/wwwroot/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/wwwroot/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/wwwroot/e.shangqing.org/upload/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/10 14:18:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/wwwroot/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/wwwroot/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/wwwroot/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/wwwroot/e.shangqing.org/upload/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/10 14:21:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/wwwroot/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/wwwroot/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/wwwroot/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/wwwroot/e.shangqing.org/upload/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/25 17:46:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/wwwroot/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/wwwroot/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/wwwroot/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/wwwroot/e.shangqing.org/upload/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/07/25 17:46:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in /home/wwwroot/yii/framework/web/CWebApplication.php:280
+Stack trace:
+#0 /home/wwwroot/yii/framework/web/CWebApplication.php(135): CWebApplication->runController('favicon.ico')
+#1 /home/wwwroot/yii/framework/base/CApplication.php(162): CWebApplication->processRequest()
+#2 /home/wwwroot/e.shangqing.org/upload/index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---

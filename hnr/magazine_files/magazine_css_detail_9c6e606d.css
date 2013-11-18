@@ -1,0 +1,807 @@
+a,a:hover {
+    text-decoration:none;
+}
+.main-content {
+    height:760px;
+    position:relative;
+}
+.sort-1,.sort-73 {
+    background:url(../images/bg.jpg) repeat;
+}
+.sort-10 {
+    background:url(/static/magazine/detail/10_a6d0fad9.png) repeat;
+}
+.sort-0,.sort-37 {
+    background:url(/static/magazine/detail/37_269176af.jpg) repeat;
+}
+.sort-50 {
+    background:url(/static/magazine/detail/50_4a4a7030.jpg) repeat;
+}
+.sort-86,.sort-101 {
+    background:url(/static/magazine/detail/86_101_eef800b5.png) repeat;
+}
+.sort-93 {
+    background:url(/static/magazine/detail/93_57e1f9ca.png) repeat;
+}
+.sort-108,.sort-123 {
+    background:url(/static/magazine/detail/108_123_34b0da8f.jpg) repeat;
+}#magContent {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.mag-body {
+    height:100%;
+    position:relative;
+}
+.mag-contents {
+    width:980px;
+    margin:0 auto;
+    padding-top:20px;
+}
+.outer-mag-content {
+    width:728px;
+    height:698px;
+    border:1px solid #ddd;
+    float:left;
+    background-color:#fff;
+    overflow:hidden;
+    _position:relative;
+}
+#mag-content-items {
+    width:628px;
+    margin-left:50px;
+    height:698px;
+    position:relative;
+    overflow:hidden;
+}
+.mag-content-shadow {
+    background:url(../images/content-shadow_55676de6.png) no-repeat  center  -20px;
+    height:20px;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="../images/content-shadow_55676de6.png");
+    _height:40px;
+    _margin:-20px auto 0;
+    _width:980px;
+}
+#prevExpMask {
+    width:314px;
+    height:100%;
+    z-index:102;
+    left:0;
+    top:0;
+    position:absolute;
+    background-color:#fff;
+    opacity:0;
+    filter:alpha(opacity=0);
+    cursor:url(../images/left.cur) , auto;
+    cursor:url(../images/left.cur) \9;
+}
+.exp-preview {
+    text-align:justify;
+    padding:0 64px;
+    position:absolute;
+    left:0;
+    top:0;
+    width:500px;
+    height:100%;
+    background-color:#fff;
+    z-index:1;
+    cursor:url(../images/right.cur) , auto;
+    cursor:url(../images/right.cur) \9;
+}
+.exp-preview .exp-title {
+    padding-top:60px;
+    font:29px/34px 'Microsoft Yahei',"微软雅黑",arial,"宋体",sans-serif;
+    color:#333;
+}
+.exp-preview .exp-intro {
+    margin-top:26px;
+    font-size:14px;
+    line-height:24px;
+    color:#333;
+    height:48px;
+    overflow:hidden;
+}
+.exp-preview .exp-img {
+    width:500px;
+    height:240px;
+    margin-top:21px;
+    background-repeat:no-repeat;
+    background-position:center  center;
+}
+.exp-steps {
+    margin-top:23px;
+}
+.exp-steps li {
+    border-left:1px dotted #ccc;
+    height:98px;
+    padding:0 30px;
+    float:left;
+    width:80px;
+}
+.exp-steps .first-step {
+    padding-left:0;
+    border-left:none;
+}
+.exp-steps .exp-entry {
+    float:right;
+    padding-right:0;
+    padding-left:15px;
+    width:91px;
+}
+.exp-steps img {
+    width:80px;
+    height:60px;
+    display:block;
+    margin-top:8px;
+}
+.step-intro {
+    position:relative;
+    padding-left:19px;
+    font-size:12px;
+    color:#333;
+    line-height:15px;
+    height:30px;
+    overflow:hidden;
+}
+.step-intro em {
+    font:normal  20px/26px 'Microsoft Yahei',"微软雅黑",arial,"宋体",sans-serif;
+    color:#3fba27;
+    position:absolute;
+    left:0;
+    top:0;
+}
+.step-intro-plus {
+    width:85px;
+    margin-left:-5px;
+    font-size:12px;
+    color:#333;
+}
+.exp-entry {
+    line-height:1;
+    font-size:14px;
+}
+.exp-entry a {
+    display:block;
+}
+.exp-entry span {
+    display:block;
+    color:#3fba27;
+    padding:50px 0 20px;
+}
+.exp-entry em {
+    color:#888;
+    font-style:normal;
+    display:block;
+}
+.format-body .exp-entry a {
+    margin-top:8px;
+    width:90px;
+    height:90px;
+    cursor:pointer;
+    background:url(http://img.baidu.com/img/iknow/exp/mag/detail-bg.png) no-repeat  0 -355px;
+    text-align:center;
+}
+.format-body .exp-entry span {
+    display:block;
+    color:#3fba27;
+    padding:28px 0 5px;
+    font:16px/18px 'Microsoft Yahei',"微软雅黑",arial,"宋体";
+}
+.format-body .exp-entry a:hover {
+    text-decoration:none;
+    background-position:-185px -355px;
+}
+.format-body .exp-entry em {
+    color:#666;
+    font-size:12px;
+    font-family:'宋体';
+}
+.exp-plus {
+    margin-top:68px;
+    color:#999;
+}
+.exp-plus em {
+    font-style:normal;
+    margin-right:6px;
+}
+.exp-plus span {
+    margin:0 10px;
+    color:#ddd;
+}
+.exp-content {
+    margin-top:26px;
+    color:#333;
+    font-size:14px;
+    overflow:hidden;
+}
+.no-format {
+    line-height:26px;
+    height:613px;
+    overflow:hidden;
+    color:#333;
+}
+.no-format p {
+    margin-bottom:26px;
+}
+.no-format-img {
+    margin-bottom:15px;
+    width:500px;
+    height:240px;
+    background-position:center  center;
+    background-repeat:no-repeat;
+}
+.no-format-plus .exp-entry {
+    text-align:right;
+    margin-top:35px;
+    padding-left:422px;
+}
+.no-format-plus .exp-entry a {
+    display:block;
+    padding:10px 0;
+    width:86px;
+    text-align:left;
+}
+.no-format-plus .exp-entry em {
+    background:url(http://img.baidu.com/img/iknow/exp/mag/detail-bg.png) no-repeat  -370px -143px;
+}
+.no-format-plus .exp-entry a:hover  em {
+    color:#26a800;
+    background-position:-490px -143px;
+    text-decoration:underline;
+}
+.no-format-plus .exp-plus {
+    margin-top:-25px;
+    width:200px;
+}
+.loading {
+    color:#666;
+    padding-top:50px;
+}
+#lastPageTip {
+    width:200px;
+    height:60px;
+    color:#eee;
+    background-color:#000;
+    opacity:0.7;
+    filter:alpha(opacity=70);
+    position:absolute;
+    top:200px;
+    left:264px;
+    z-index:103;
+    border-radius:10px;
+    line-height:60px;
+    text-align:center;
+    font-size:16px;
+}
+.format-body {
+    height:584px;
+}
+#magCover {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    overflow:hidden;
+}
+.cover-entry {
+    position:absolute;
+    right:0;
+    top:255px;
+    padding:35px 0 0 40px;
+    width:220px;
+    height:135px;
+    background:url(http://img.baidu.com/img/iknow/exp/mag/detail-bg.png) no-repeat  195px -180px;
+}
+.cover-entry span {
+    display:block;
+    background:url(http://img.baidu.com/img/iknow/exp/mag/detail-bg.png) no-repeat  -679px -106px;
+    padding-left:6px;
+}
+.cover-entry em {
+    width:118px;
+    height:88px;
+    border:1px solid #000;
+    display:block;
+    margin-top:-90px;
+    position:absolute;
+    opacity:0.1;
+    filter:alpha(opacity=10);
+}
+.cover-entry img {
+    width:120px;
+    height:90px;
+    display:block;
+    opacity:0.6;
+    filter:alpha(opacity=60);
+}
+.cover-entry:hover {
+    background-position:-77px -180px;
+}
+.cover-entry:hover img {
+    opacity:1;
+    filter:alpha(opacity=100);
+}
+.cover-highlight {
+    position:absolute;
+    left:0;
+    top:0;
+    width:980px;
+    height:701px;
+    background:url(../images/cover-light_c91deac5.png) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="../images/cover-light_c91deac5.png");
+}
+.cover-content-bg {
+    width:100%;
+    height:520px;
+    background-color:#fff;
+    opacity:0.98;
+    filter:alpha(opacity=98);
+    position:absolute;
+    left:0;
+    top:70px;
+}
+.good-ico {
+    width:46px;
+    height:61px;
+    background:url(http://img.baidu.com/img/iknow/exp/mag/detail-bg.png) no-repeat  -37px 0;
+    position:absolute;
+    top:70px;
+    left:50px;
+}
+.mag-cover {
+    background:url(../images/detail-cover-bg-rp_ded1ea1a.jpg) repeat;
+    height:100%;
+    position:relative;
+    padding-top:20px;
+}
+.cover-bg {
+    position:absolute;
+    width:100%;
+    top:11px;
+    left:0;
+    _display:none;
+}
+.cover-bg-top {
+    background:url(../images/cover-shadow_d6d06ca7.png) no-repeat  center  0;
+    height:26px;
+}
+.cover-bg-mid {
+    background:url(../images/cover-shadow-mid_014356ad.png) repeat-y  center  0;
+    height:663px;
+}
+.cover-bg-bom {
+    background:url(../images/cover-shadow_d6d06ca7.png) no-repeat  center  -590px;
+    height:35px;
+}
+.cover-content {
+    margin:0 auto;
+    width:980px;
+    height:630px;
+    padding-top:70px;
+    position:relative;
+}
+.cover-content-main {
+    width:585px;
+    padding:60px 0 0 120px;
+    position:absolute;
+}
+.mag-title h1 {
+    font:55px/60px 'Microsoft Yahei',"微软雅黑",arial,"宋体",sans-serif;
+    color:#333;
+    float:left;
+}
+.mag-title span {
+    float:left;
+    width:17px;
+    height:43px;
+    margin:15px 0 0 10px;
+    background:url(http://img.baidu.com/img/iknow/exp/mag/detail-bg.png) no-repeat  0 0;
+    color:#ebfceb;
+    text-align:center;
+    line-height:14px;
+    padding-top:2px;
+}
+.mag-intro {
+    margin-top:25px;
+    font-size:14px;
+    line-height:24px;
+    color:#666;
+    height:48px;
+    overflow:hidden;
+}
+.mag-info {
+    margin-top:20px;
+    color:#999;
+}
+.mag-info li {
+    border-left:1px solid #e1e1e1;
+    float:left;
+    padding:0 10px;
+    line-height:1;
+}
+.mag-info .mag-info-num {
+    padding-left:14px;
+    background:url(http://img.baidu.com/img/iknow/exp/mag/detail-bg.png) no-repeat  0 -144px;
+    border-left:none;
+}
+.mag-info .mag-info-good {
+    padding-left:28px;
+    background:url(http://img.baidu.com/img/iknow/exp/mag/detail-bg.png) no-repeat  -122px -144px;
+}
+.mag-info .mag-info-share {
+    padding-left:28px;
+    background:url(http://img.baidu.com/img/iknow/exp/mag/detail-bg.png) no-repeat  -258px -144px;
+}
+.mag-author-info {
+    margin-top:25px;
+    color:#999;
+    line-height:30px;
+}
+.mag-author-info li {
+    float:left;
+}
+.mag-author-info .mag-author-img {
+    position:relative;
+}
+.mag-author-info .mag-author-img img {
+    width:30px;
+    height:30px;
+    display:block;
+}
+.mag-author-info .mag-author-img span {
+    position:absolute;
+    left:-1px;
+    top:-1px;
+    background:url(../images/usr-mask_091e38c0.png) no-repeat;
+    width:32px;
+    height:32px;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="../images/usr-mask_091e38c0.png");
+}
+.mag-author-info .mag-author-name {
+    font-weight:bold;
+    margin-left:8px;
+}
+.mag-author-info .mag-author-title {
+    margin-left:10px;
+}
+.mag-author-info .mag-author-icons {
+    margin:3px 0 0 10px;
+}
+.mag-author-info .mag-author-icons .u-icon {
+    display:block;
+    width:24px;
+    height:24px;
+    float:left;
+    background:url(http://img.baidu.com/img/iknow/exp/user-badge-small.png) no-repeat;
+    margin-right:3px;
+    outline:0;
+}
+.mag-author-info .mag-author-icons .cpm-m {
+    background-position:-24px 0;
+}
+.mag-author-info .mag-author-icons .cpm-m-1 {
+    background-position:-24px 0;
+}
+.mag-author-info .mag-author-icons .cpm-m-2 {
+    background-position:-24px -24px;
+}
+.mag-author-info .mag-author-icons .cpm-m-3 {
+    background-position:-24px -48px;
+}
+.mag-author-info .mag-author-icons .cpm0 {
+    background-position:0 0;
+}
+.mag-author-info .mag-author-icons .cpm1 {
+    background-position:0 -24px;
+}
+.mag-author-info .mag-author-icons .cpm2 {
+    background-position:0 -48px;
+}
+.mag-author-info .mag-author-icons .privilege1 {
+    background-position:-48px 0;
+}
+.mag-author-info .mag-author-icons .privilege2 {
+    background-position:-48px -24px;
+}
+.mag-author-info .mag-author-icons .admin1 {
+    background-position:-72px 0;
+}
+.f14 {
+    font-size:14px;
+}
+.f28 {
+    font-size:28px;
+}
+.mag-hot-title {
+    margin-top:10px;
+    border-top:1px solid #ddd;
+    padding-top:30px;
+    color:#999;
+    font-family:'Microsoft Yahei',"微软雅黑",arial,"宋体",sans-serif;
+    _overflow:hidden;
+    _width:100%;
+}
+.mag-hot-title li {
+    line-height:1;
+    margin-bottom:20px;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+#mag-exp-list {
+    float:left;
+    width:250px;
+    height:700px;
+    position:relative;
+}
+.mag-exp-list-bg {
+    background-color:#fcfcfc;
+    width:250px;
+    height:700px;
+    top:0;
+    left:0;
+    opacity:0.95;
+    filter:alpha(opacity=95);
+    position:absolute;
+}
+.mag-exp-list-shadow {
+    width:250px;
+    height:700px;
+    top:0;
+    left:0;
+    background:url(../images/content-list-shadow_8b9b0a46.png) no-repeat;
+    position:absolute;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="../images/content-list-shadow_8b9b0a46.png");
+    _background:none;
+    _width:6px;
+}
+.mag-exp-list-content {
+    position:absolute;
+    line-height:1;
+    padding:25px 20px 0;
+    width:210px;
+}
+.mag-exp-list-content p {
+    color:#999;
+    padding-bottom:6px;
+}
+.mag-exp-list-content h3 {
+    font:18px/30px 'Microsoft Yahei',"微软雅黑",arial,"宋体",sans-serif;
+    color:#333;
+    border-top:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+    cursor:pointer;
+    padding:5px 0;
+}
+.mag-exp-list-content ul {
+    border-top:1px solid #e1e1e1;
+    padding:7px 3px;
+    _width:100%;
+    _overflow:hidden;
+}
+.mag-exp-list-content .first-ul {
+    border-top:none;
+}
+.mag-exp-list-content li {
+    padding:4px 0;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.mag-exp-list-content a {
+    font-size:12px;
+    line-height:17px;
+    color:#333;
+    text-decoration:none;
+    cursor:pointer;
+}
+.mag-exp-list-content a:hover {
+    color:#26a800;
+}
+.mag-exp-list-content .current {
+    color:#3fba27;
+    display:block;
+    border-left:3px solid #3fba27;
+    padding-left:5px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.mag-header {
+    background:url(../images/logo.png) repeat-x;
+    height:38px;
+}
+.mag-header .h-logo {
+    width:980px;
+    margin:0 auto;
+}
+.mag-header .logo {
+    background:url(../images/logo.png) no-repeat  0 -37px;
+    display:block;
+    width:90px;
+    height:38px;
+    text-indent:-1000px;
+}
+.mag-header-nav {
+    padding-top:10px;
+    height:28px;
+    margin:-38px 0 0 110px;
+    font-size:14px;
+    line-height:20px;
+}
+.mag-header-nav a {
+    color:#333;
+    font-family:'Microsoft Yahei',"微软雅黑",arial,"宋体",sans-serif;
+    vertical-align:middle;
+}
+.mag-header-nav a:hover {
+    color:#26A800;
+    text-decoration:none;
+}
+.split-sp {
+    width:0;
+    display:inline-block;
+    border-left:1px solid #fff;
+    border-right:1px solid #d6d6d6;
+    height:20px;
+    vertical-align:middle;
+    margin-right:15px;
+}
+.mag-header-nav .goto-mag {
+    display:none;
+}
+.mag-header-nav .goto-index {
+    display:inline;
+}
+.page-index .goto-mag {
+    display:inline;
+}
+.page-index .goto-index {
+    display:none;
+}
+#bdshare {
+    display:none;
+    z-index:999!important;
+}
+#body .float-share {
+    width:50px;
+    height:188px;
+    position:absolute;
+    display:none;
+}
+#body .float-share span {
+    display:block;
+    overflow:hidden;
+    width:50px;
+    height:42px;
+    background:none;
+    padding:0;
+    *position:relative;
+}
+#body .float-share span a {
+    display:block;
+    width:100px;
+    height:230px;
+    background:url(http://img.baidu.com/img/iknow/exp/new-share.png) no-repeat;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="http://img.baidu.com/img/iknow/exp/new-share.png?v=130916");
+    _background:transparent;
+    position:relative;
+    cursor:pointer;
+    background-position:0 0!important;
+}
+#body .float-share span a:hover {
+    border:none;
+    left:-50px;
+    opacity:1;
+    filter:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=noscale, src="http://img.baidu.com/img/iknow/exp/new-share.png?v=130916");
+}
+#body .float-share .share-top {
+    display:block;
+    height:10px;
+    overflow:hidden;
+    background:url(http://img.baidu.com/img/iknow/exp/new-share.png) no-repeat;
+}
+#body .float-share .bds_tsina {
+    top:-10px;
+}
+#body .float-share .bds_qzone {
+    top:-52px;
+}
+#body .float-share .bds_tqq {
+    top:-94px;
+}
+#body .float-share .bds_renren {
+    top:-136px;
+}
+#body .float-share .bds_renren:hover {
+    border:none;
+    top:-135px;
+}
+#body .float-share .bds_mshare {
+    top:-178px;
+}
+#body .float-share .bds_mshare:hover {
+    border:none;
+    top:-177px;
+}
+#body .float-share .share-bottom {
+    display:block;
+    height:10px;
+    overflow:hidden;
+    background:url(http://img.baidu.com/img/iknow/exp/new-share.png) no-repeat  0 -178px;
+}
+#useful {
+    display:none;
+}
+.useful-btn {
+    cursor:pointer;
+    display:block;
+    width:50px;
+    height:50px;
+    overflow:hidden;
+    position:relative;
+    font-size:12px;
+}
+.useful-btn span {
+    display:block;
+    position:absolute;
+    width:100%;
+    text-shadow:0 0 1px #555;
+    left:0;
+    text-align:center;
+}
+.useful-btn .on-hover {
+    color:#ffb44d;
+    display:none;
+    line-height:50px;
+    top:0;
+}
+.useful-btn .on-feed-hover {
+    color:#fcfcfc;
+    display:none;
+    line-height:50px;
+    top:0
+;
+}
+.useful-btn:hover {
+    border:none;
+}
+.useful-btn:hover .useful-bg {
+    left:-60px;
+}
+.useful-btn:hover .on-mouseout {
+    display:none;
+}
+.useful-btn:hover .on-hover {
+    display:block;
+}
+.useful-btn .useful-bg {
+    background:url(../images/very_good.png) no-repeat;
+    _background:none;
+    _filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src="../images/very_good.png");
+    width:110px;
+    height:50px;
+    position:absolute;
+    top:0;
+    left:0;
+}
+.useful-btn .on-mouseout {
+    color:#fcfcfc;
+    top:30px;
+}
+.has-feed:hover {
+    border:none;
+}
+.has-feed:hover .on-hover {
+    display:none;
+}
+.has-feed:hover .on-feed-hover {
+    display:block;
+}
